@@ -1,12 +1,9 @@
-import { TextField } from '@hilla/react-components/TextField.js';
-// import './App.css'
+import ComponentsView from "./ComponentsView";
 
 function App() {
 
   return (
-    <>
-      <TextField label="Text field"></TextField>
-    </>
+    <ComponentsView></ComponentsView>
   )
 }
 
