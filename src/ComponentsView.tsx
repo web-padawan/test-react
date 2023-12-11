@@ -91,7 +91,7 @@ function ComponentsView() {
 
       <Avatar></Avatar>
 
-      <AvatarGroup items={[{ abbr: 'SK'}]}></AvatarGroup>
+      <AvatarGroup items={[{ abbr: "SK" }]}></AvatarGroup>
 
       <Board>
         <BoardRow></BoardRow>
@@ -148,7 +148,7 @@ function ComponentsView() {
           <label slot="label">Password</label>
           <PasswordField></PasswordField>
         </FormItem>
-        <FormItem >
+        <FormItem>
           <label slot="label">Email</label>
           <EmailField></EmailField>
         </FormItem>
@@ -166,7 +166,7 @@ function ComponentsView() {
         </FormItem>
       </FormLayout>
 
-      <Grid items={}>
+      <Grid items={[{ name: "User" }]}>
         <GridTreeColumn></GridTreeColumn>
         <GridColumn header="Column"></GridColumn>
         <GridSelectionColumn></GridSelectionColumn>
