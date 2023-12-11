@@ -166,7 +166,7 @@ function ComponentsView() {
         </FormItem>
       </FormLayout>
 
-      <Grid>
+      <Grid items={}>
         <GridTreeColumn></GridTreeColumn>
         <GridColumn header="Column"></GridColumn>
         <GridSelectionColumn></GridSelectionColumn>
@@ -223,7 +223,7 @@ function ComponentsView() {
 
       <Scroller></Scroller>
 
-      <Select></Select>
+      <Select label={"Select"}></Select>
 
       <SideNav collapsible>
         <span slot="label">Main menu</span>
