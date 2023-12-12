@@ -100,7 +100,7 @@ function ComponentsView() {
 
       <Button>
         Button
-        <Tooltip slot="tooltip">Tooltip</Tooltip>
+        <Tooltip slot="tooltip" text="Tooltip"></Tooltip>
       </Button>
 
       <Chart>
