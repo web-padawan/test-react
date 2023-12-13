@@ -72,6 +72,7 @@ import { Tooltip } from "@hilla/react-components/Tooltip.js";
 import { Upload } from "@hilla/react-components/Upload.js";
 import { VerticalLayout } from "@hilla/react-components/VerticalLayout.js";
 import { VirtualList } from "@hilla/react-components/VirtualList.js";
+import { users } from "./data.js";
 
 function ComponentsView() {
   return (
@@ -125,7 +126,7 @@ function ComponentsView() {
 
       <CookieConsent></CookieConsent>
 
-      <Crud>
+      <Crud items={users} exclude="name,married">
         <CrudEditColumn></CrudEditColumn>
       </Crud>
 
