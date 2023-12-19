@@ -21,6 +21,7 @@ import { CustomField } from "@hilla/react-components/CustomField.js";
 import { DatePicker } from "@hilla/react-components/DatePicker.js";
 import { DateTimePicker } from "@hilla/react-components/DateTimePicker.js";
 import { Details } from "@hilla/react-components/Details.js";
+import { DetailsSummary } from "@hilla/react-components/DetailsSummary.js";
 import { Dialog } from "@hilla/react-components/Dialog.js";
 import { DrawerToggle } from "@hilla/react-components/DrawerToggle.js";
 import { EmailField } from "@hilla/react-components/EmailField.js";
@@ -134,7 +135,8 @@ function ComponentsView() {
 
       <DateTimePicker label="Date and time"></DateTimePicker>
 
-      <Details summary="Details">
+      <Details>
+        <DetailsSummary slot="summary">Details</DetailsSummary>
         <div>Content</div>
       </Details>
 
